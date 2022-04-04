@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A558FE91FF718EB00773179 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A558FE81FF718EA00773179 /* StartScene.swift */; };
+		9A558FEB1FF718FB00773179 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A558FEA1FF718FB00773179 /* StartScene.sks */; };
+		9AF55FC31FF38F0F00368696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF55FC21FF38F0F00368696 /* AppDelegate.swift */; };
+		9AF55FC51FF38F0F00368696 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AF55FC41FF38F0F00368696 /* GameScene.sks */; };
+		9AF55FC71FF38F0F00368696 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9AF55FC61FF38F0F00368696 /* Actions.sks */; };
+		9AF55FC91FF38F0F00368696 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF55FC81FF38F0F00368696 /* GameScene.swift */; };
+		9AF55FCB1FF38F0F00368696 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF55FCA1FF38F0F00368696 /* GameViewController.swift */; };
+		9AF55FCE1FF38F0F00368696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF55FCC1FF38F0F00368696 /* Main.storyboard */; };
+		9AF55FD01FF38F0F00368696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF55FCF1FF38F0F00368696 /* Assets.xcassets */; };
+		9AF55FD31FF38F0F00368696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF55FD11FF38F0F00368696 /* LaunchScreen.storyboard */; };
+		9AF55FDE1FF38F0F00368696 /* Spike_JumperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF55FDD1FF38F0F00368696 /* Spike_JumperTests.swift */; };
+		9AF55FE91FF38F0F00368696 /* Spike_JumperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF55FE81FF38F0F00368696 /* Spike_JumperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF55FDA1FF38F0F00368696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF55FB71FF38F0E00368696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF55FBE1FF38F0F00368696;
+			remoteInfo = "Spike Jumper";
+		};
+		9AF55FE51FF38F0F00368696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF55FB71FF38F0E00368696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF55FBE1FF38F0F00368696;
+			remoteInfo = "Spike Jumper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A558FE81FF718EA00773179 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		9A558FEA1FF718FB00773179 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		9AF55FBF1FF38F0F00368696 /* Spike Jumper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spike Jumper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF55FC21FF38F0F00368696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AF55FC41FF38F0F00368696 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9AF55FC61FF38F0F00368696 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9AF55FC81FF38F0F00368696 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9AF55FCA1FF38F0F00368696 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9AF55FCD1FF38F0F00368696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AF55FCF1FF38F0F00368696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF55FD21FF38F0F00368696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AF55FD41FF38F0F00368696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF55FD91FF38F0F00368696 /* Spike JumperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spike JumperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF55FDD1FF38F0F00368696 /* Spike_JumperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_JumperTests.swift; sourceTree = "<group>"; };
+		9AF55FDF1FF38F0F00368696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF55FE41FF38F0F00368696 /* Spike JumperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spike JumperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF55FE81FF38F0F00368696 /* Spike_JumperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike_JumperUITests.swift; sourceTree = "<group>"; };
+		9AF55FEA1FF38F0F00368696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF55FBC1FF38F0F00368696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF55FD61FF38F0F00368696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF55FE11FF38F0F00368696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF55FB61FF38F0E00368696 = {
+			isa = PBXGroup;
+			children = (
+				9AF55FC11FF38F0F00368696 /* Spike Jumper */,
+				9AF55FDC1FF38F0F00368696 /* Spike JumperTests */,
+				9AF55FE71FF38F0F00368696 /* Spike JumperUITests */,
+				9AF55FC01FF38F0F00368696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF55FC01FF38F0F00368696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF55FBF1FF38F0F00368696 /* Spike Jumper.app */,
+				9AF55FD91FF38F0F00368696 /* Spike JumperTests.xctest */,
+				9AF55FE41FF38F0F00368696 /* Spike JumperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF55FC11FF38F0F00368696 /* Spike Jumper */ = {
+			isa = PBXGroup;
+			children = (
+				9AF55FC21FF38F0F00368696 /* AppDelegate.swift */,
+				9AF55FC41FF38F0F00368696 /* GameScene.sks */,
+				9AF55FC61FF38F0F00368696 /* Actions.sks */,
+				9AF55FC81FF38F0F00368696 /* GameScene.swift */,
+				9A558FE81FF718EA00773179 /* StartScene.swift */,
+				9A558FEA1FF718FB00773179 /* StartScene.sks */,
+				9AF55FCA1FF38F0F00368696 /* GameViewController.swift */,
+				9AF55FCC1FF38F0F00368696 /* Main.storyboard */,
+				9AF55FCF1FF38F0F00368696 /* Assets.xcassets */,
+				9AF55FD11FF38F0F00368696 /* LaunchScreen.storyboard */,
+				9AF55FD41FF38F0F00368696 /* Info.plist */,
+			);
+			path = "Spike Jumper";
+			sourceTree = "<group>";
+		};
+		9AF55FDC1FF38F0F00368696 /* Spike JumperTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF55FDD1FF38F0F00368696 /* Spike_JumperTests.swift */,
+				9AF55FDF1FF38F0F00368696 /* Info.plist */,
+			);
+			path = "Spike JumperTests";
+			sourceTree = "<group>";
+		};
+		9AF55FE71FF38F0F00368696 /* Spike JumperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF55FE81FF38F0F00368696 /* Spike_JumperUITests.swift */,
+				9AF55FEA1FF38F0F00368696 /* Info.plist */,
+			);
+			path = "Spike JumperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF55FBE1FF38F0F00368696 /* Spike Jumper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF55FED1FF38F0F00368696 /* Build configuration list for PBXNativeTarget "Spike Jumper" */;
+			buildPhases = (
+				9AF55FBB1FF38F0F00368696 /* Sources */,
+				9AF55FBC1FF38F0F00368696 /* Frameworks */,
+				9AF55FBD1FF38F0F00368696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spike Jumper";
+			productName = "Spike Jumper";
+			productReference = 9AF55FBF1FF38F0F00368696 /* Spike Jumper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AF55FD81FF38F0F00368696 /* Spike JumperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF55FF01FF38F0F00368696 /* Build configuration list for PBXNativeTarget "Spike JumperTests" */;
+			buildPhases = (
+				9AF55FD51FF38F0F00368696 /* Sources */,
+				9AF55FD61FF38F0F00368696 /* Frameworks */,
+				9AF55FD71FF38F0F00368696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF55FDB1FF38F0F00368696 /* PBXTargetDependency */,
+			);
+			name = "Spike JumperTests";
+			productName = "Spike JumperTests";
+			productReference = 9AF55FD91FF38F0F00368696 /* Spike JumperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AF55FE31FF38F0F00368696 /* Spike JumperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF55FF31FF38F0F00368696 /* Build configuration list for PBXNativeTarget "Spike JumperUITests" */;
+			buildPhases = (
+				9AF55FE01FF38F0F00368696 /* Sources */,
+				9AF55FE11FF38F0F00368696 /* Frameworks */,
+				9AF55FE21FF38F0F00368696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF55FE61FF38F0F00368696 /* PBXTargetDependency */,
+			);
+			name = "Spike JumperUITests";
+			productName = "Spike JumperUITests";
+			productReference = 9AF55FE41FF38F0F00368696 /* Spike JumperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF55FB71FF38F0E00368696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Kenny;
+				TargetAttributes = {
+					9AF55FBE1FF38F0F00368696 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9AF55FD81FF38F0F00368696 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AF55FBE1FF38F0F00368696;
+					};
+					9AF55FE31FF38F0F00368696 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AF55FBE1FF38F0F00368696;
+					};
+				};
+			};
+			buildConfigurationList = 9AF55FBA1FF38F0E00368696 /* Build configuration list for PBXProject "Spike Jumper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF55FB61FF38F0E00368696;
+			productRefGroup = 9AF55FC01FF38F0F00368696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF55FBE1FF38F0F00368696 /* Spike Jumper */,
+				9AF55FD81FF38F0F00368696 /* Spike JumperTests */,
+				9AF55FE31FF38F0F00368696 /* Spike JumperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF55FBD1FF38F0F00368696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF55FCE1FF38F0F00368696 /* Main.storyboard in Resources */,
+				9AF55FC51FF38F0F00368696 /* GameScene.sks in Resources */,
+				9AF55FD01FF38F0F00368696 /* Assets.xcassets in Resources */,
+				9A558FEB1FF718FB00773179 /* StartScene.sks in Resources */,
+				9AF55FD31FF38F0F00368696 /* LaunchScreen.storyboard in Resources */,
+				9AF55FC71FF38F0F00368696 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF55FD71FF38F0F00368696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF55FE21FF38F0F00368696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF55FBB1FF38F0F00368696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF55FC91FF38F0F00368696 /* GameScene.swift in Sources */,
+				9AF55FCB1FF38F0F00368696 /* GameViewController.swift in Sources */,
+				9AF55FC31FF38F0F00368696 /* AppDelegate.swift in Sources */,
+				9A558FE91FF718EB00773179 /* StartScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF55FD51FF38F0F00368696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF55FDE1FF38F0F00368696 /* Spike_JumperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF55FE01FF38F0F00368696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF55FE91FF38F0F00368696 /* Spike_JumperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF55FDB1FF38F0F00368696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF55FBE1FF38F0F00368696 /* Spike Jumper */;
+			targetProxy = 9AF55FDA1FF38F0F00368696 /* PBXContainerItemProxy */;
+		};
+		9AF55FE61FF38F0F00368696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF55FBE1FF38F0F00368696 /* Spike Jumper */;
+			targetProxy = 9AF55FE51FF38F0F00368696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AF55FCC1FF38F0F00368696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF55FCD1FF38F0F00368696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF55FD11FF38F0F00368696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF55FD21FF38F0F00368696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF55FEB1FF38F0F00368696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AF55FEC1FF38F0F00368696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF55FEE1FF38F0F00368696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QYDUE4C4F;
+				INFOPLIST_FILE = "Spike Jumper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenny.SpikeJumper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF55FEF1FF38F0F00368696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7QYDUE4C4F;
+				INFOPLIST_FILE = "Spike Jumper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kenny.SpikeJumper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AF55FF11FF38F0F00368696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Spike JumperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kenny.Spike-JumperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spike Jumper.app/Spike Jumper";
+			};
+			name = Debug;
+		};
+		9AF55FF21FF38F0F00368696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Spike JumperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kenny.Spike-JumperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spike Jumper.app/Spike Jumper";
+			};
+			name = Release;
+		};
+		9AF55FF41FF38F0F00368696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Spike JumperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kenny.Spike-JumperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spike Jumper";
+			};
+			name = Debug;
+		};
+		9AF55FF51FF38F0F00368696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Spike JumperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kenny.Spike-JumperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Spike Jumper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF55FBA1FF38F0E00368696 /* Build configuration list for PBXProject "Spike Jumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF55FEB1FF38F0F00368696 /* Debug */,
+				9AF55FEC1FF38F0F00368696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF55FED1FF38F0F00368696 /* Build configuration list for PBXNativeTarget "Spike Jumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF55FEE1FF38F0F00368696 /* Debug */,
+				9AF55FEF1FF38F0F00368696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF55FF01FF38F0F00368696 /* Build configuration list for PBXNativeTarget "Spike JumperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF55FF11FF38F0F00368696 /* Debug */,
+				9AF55FF21FF38F0F00368696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF55FF31FF38F0F00368696 /* Build configuration list for PBXNativeTarget "Spike JumperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF55FF41FF38F0F00368696 /* Debug */,
+				9AF55FF51FF38F0F00368696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF55FB71FF38F0E00368696 /* Project object */;
+}
